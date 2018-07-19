@@ -1,4 +1,4 @@
-﻿Log file open, 07/18/18 00:52:33
+﻿Log file open, 07/18/18 17:57:09
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TheOnioning
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1725627616) SRandInit(1725627616).
+LogInit: Display: RandInit(-2050921623) SRandInit(-2050921623).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.237970
+LogStats: Stats thread started at 2.677546
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3709383).
@@ -190,462 +190,1064 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.18-07.52.34:743][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.18-07.52.34:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.18-07.52.34:751][  0]LogInit: Computer: DESKTOP-66AK4EM
-[2018.07.18-07.52.34:751][  0]LogInit: User: RyanKelly
-[2018.07.18-07.52.34:751][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.07.18-07.52.34:751][  0]LogInit: High frequency timer resolution =3.222655 MHz
-[2018.07.18-07.52.34:751][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.18-07.52.34:751][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.18-07.52.34:751][  0]LogMemory: Process Physical Memory: 274.18 MB used, 274.18 MB peak
-[2018.07.18-07.52.34:751][  0]LogMemory: Process Virtual Memory: 274.16 MB used, 274.16 MB peak
-[2018.07.18-07.52.34:751][  0]LogMemory: Physical Memory: 8082.30 MB used,  8197.05 MB free, 16279.35 MB total
-[2018.07.18-07.52.34:751][  0]LogMemory: Virtual Memory: 4785.21 MB used,  8197.05 MB free, 134217728.00 MB total
-[2018.07.18-07.52.34:908][  0]LogInit: Using OS detected language (en-US).
-[2018.07.18-07.52.34:908][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.18-07.52.34:910][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.18-07.52.35:292][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.18-07.52.35:533][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.18-07.52.35:584][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.07.18-07.52.35:584][  0]LogD3D11RHI:       4043/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.07.18-07.52.35:585][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.18-07.52.35:585][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.18-07.52.35:585][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.18-07.52.35:590][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.18-07.52.35:590][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.18-07.52.35:590][  0]LogWindows: EnumDisplayDevices:
-[2018.07.18-07.52.35:591][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.07.18-07.52.35:591][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.07.18-07.52.35:591][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.18-07.52.35:591][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.18-07.52.35:591][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.18-07.52.35:591][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.07.18-07.52.35:591][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.18-07.52.35:591][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.18-07.52.35:591][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.07.18-07.52.35:622][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.18-07.52.35:642][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.18-07.52.35:691][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Intermediate/Shaders/WorkingDirectory/14212/).
-[2018.07.18-07.52.35:691][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryan Kelly/AppData/Local/Temp/UnrealShaderWorkingDir/4F8FB34A486D5BEBD5FC1D9293C180F1/'.
-[2018.07.18-07.52.35:691][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.18-07.52.36:672][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.18-07.52.36:725][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.18-07.52.36:778][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.18-07.52.36:832][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.18-07.52.36:885][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.18-07.52.36:939][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.18-07.52.36:992][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.18-07.52.37:045][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.18-07.52.37:094][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.18-07.52.37:147][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.18-07.52.37:202][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.18-07.52.37:266][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.18-07.52.37:318][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.18-07.52.37:369][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.18-07.52.37:474][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.18-07.52.37:474][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.18-07.52.37:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.18-07.52.37:567][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.18-07.52.37:661][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.18-07.52.37:689][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.18-07.52.37:741][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.18-07.52.37:797][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.18-07.52.37:848][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.18-07.52.37:904][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.18-07.52.37:904][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.18-07.52.38:402][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.18-07.52.38:475][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.18-07.52.38:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.07.18-07.52.38:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.18-07.52.38:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.18-07.52.38:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.18-07.52.38:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.18-07.52.38:491][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.18-07.52.38:503][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.18-07.52.38:513][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.18-07.52.38:513][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.18-07.52.38:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.18-07.52.38:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.18-07.52.38:856][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.18-07.52.39:199][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.18-07.52.39:242][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.18-07.52.39:242][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.18-07.52.39:242][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.18-07.52.39:242][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.18-07.52.39:242][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.18-07.52.39:273][  0]LogNetVersion: TheOnioning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2002623446)
-[2018.07.18-07.52.39:436][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2018.07.18-07.52.39:885][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.022776 seconds
-[2018.07.18-07.52.39:889][  0]LogUObjectArray: 35459 objects as part of root set at end of initial load.
-[2018.07.18-07.52.39:889][  0]LogUObjectAllocator: 7283808 out of 0 bytes used by permanent object pool.
-[2018.07.18-07.52.39:889][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.18-07.52.39:949][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.07.18-07.52.42:705][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.07.18-07.52.42:740][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.18-07.52.42:786][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.18-07.52.43:441][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.07.18-07.52.43:882][  0]SourceControl: Source control is disabled
-[2018.07.18-07.52.43:882][  0]SourceControl: Source control is disabled
-[2018.07.18-07.52.43:938][  0]SourceControl: Source control is disabled
-[2018.07.18-07.52.43:992][  0]SourceControl: Source control is disabled
-[2018.07.18-07.52.44:853][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.18-07.52.45:568][  0]LogEngine: Initializing Engine...
-[2018.07.18-07.52.45:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.18-07.52.45:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.18-07.52.45:903][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.18-07.52.45:914][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.18-07.52.45:925][  0]LogInit: FAudioDevice initialized.
-[2018.07.18-07.52.46:102][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.18-07.52.46:116][  0]LogInit: Texture streaming: Enabled
-[2018.07.18-07.52.46:224][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.18-07.52.46:358][  0]LogInit: Transaction tracking system initialized
-[2018.07.18-07.52.46:686][  0]BlueprintLog: New page: Editor Load
-[2018.07.18-07.52.47:607][  0]LocalizationService: Localization service is disabled
-[2018.07.18-07.52.48:161][  0]LogLinker: Warning: Can't find file '/Game/PlayerAssets/FirstPersonOverview'
-[2018.07.18-07.52.48:162][  0]LogLinker: Warning: Can't find file '/Game/PlayerAssets/FirstPersonOverview'
-[2018.07.18-07.52.48:162][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PlayerAssets/FirstPersonOverview.FirstPersonOverview_C'
-[2018.07.18-07.52.48:390][  0]LogConsoleResponse: Display: 
-[2018.07.18-07.52.48:570][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.18-07.52.48:570][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.18-07.52.48:570][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.18-07.52.48:839][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' took 0.02s
-[2018.07.18-07.52.49:858][  0]SourceControl: Source control is disabled
-[2018.07.18-07.52.49:858][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/GameplayTest_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.18-07.52.49:858][  0]LightingResults: New page: Lighting Build
-[2018.07.18-07.52.49:905][  0]MapCheck: New page: Map Check
-[2018.07.18-07.52.49:905][  0]LightingResults: New page: Lighting Build
-[2018.07.18-07.52.50:340][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.07.18-07.52.50:540][  0]LogAIModule: Creating AISystem for world GameplayTest_MAP
-[2018.07.18-07.52.50:545][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.18-07.52.50:561][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.18-07.52.50:621][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.027ms to complete.
-[2018.07.18-07.52.50:621][  0]LogFileHelpers: Loading map 'GameplayTest_MAP' took 0.763
-[2018.07.18-07.52.50:720][  0]LogCollectionManager: Loaded 0 collections in 0.002121 seconds
-[2018.07.18-07.52.50:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Collections/' took 0.01s
-[2018.07.18-07.52.50:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Developers/RyanKelly/Collections/' took 0.01s
-[2018.07.18-07.52.50:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Collections/' took 0.01s
-[2018.07.18-07.52.50:802][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.07.18-07.52.50:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2370 classes and 516 folders.
-[2018.07.18-07.52.50:880][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.18-07.52.50:924][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.18-07.52.51:014][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.07.18-07.52.51:077][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.18-07.52.51:078][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.18-07.52.51:080][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.18-07.52.51:179][  0]LogRenderer: Reallocating scene render targets to support 1156x712 Format 10 NumSamples 1 (Frame:1).
-[2018.07.18-07.52.51:324][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.07.18-07.52.51:324][  0]LogLoad: (Engine Initialization) Total time: 18.99 seconds
-[2018.07.18-07.52.51:324][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.18-07.52.51:324][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.07.18-07.52.51:324][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.07.18-07.52.51:333][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.18-07.52.51:364][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.18-07.52.51:428][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2018.07.18-07.52.51:429][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' took 0.08s
-[2018.07.18-07.52.51:443][  1]LogAssetRegistry: Asset discovery search completed in 12.0300 seconds
-[2018.07.18-07.52.51:445][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.07.18-07.52.51:445][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.07.18-07.53.28:817][962]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TheOnioning
-[2018.07.18-07.53.28:817][962]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.07.18-07.53.28:817][962]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.07.18-07.53.28:817][962]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.07.18-07.53.28:817][962]LogTemp: BranchPath = DESKTOP-66AK4EM/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-66AK4EM/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.07.18-07.53.28:817][962]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.18-07.53.28:950][963]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Ryan Kelly\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.18-07.53.55:691][697]Cmd: CLOSE_SLATE_MAINFRAME
-[2018.07.18-07.53.55:803][697]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
-[2018.07.18-07.53.55:803][697]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Plugins/' was aborted.
-[2018.07.18-07.53.55:805][697]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.18-07.53.56:011][698]Cmd: QUIT_EDITOR
-[2018.07.18-07.53.56:034][698]LogExit: Preparing to exit.
-[2018.07.18-07.53.56:847][698]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' was aborted.
-[2018.07.18-07.53.56:874][698]LogExit: Editor shut down
-[2018.07.18-07.53.56:878][698]LogExit: Transaction tracking system shut down
-[2018.07.18-07.53.57:070][698]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.07.18-07.53.57:070][698]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' was aborted.
-[2018.07.18-07.53.57:070][698]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.07.18-07.53.57:070][698]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.07.18-07.53.57:070][698]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.07.18-07.53.57:129][698]LogExit: Object subsystem successfully closed.
-[2018.07.18-07.53.57:144][698]LogD3D11RHI: Shutdown
-[2018.07.18-07.53.57:144][698]LogD3D11RHI: CleanupD3DDevice
-[2018.07.18-07.53.57:146][698]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.07.18-07.53.57:161][698]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (548)
-[2018.07.18-07.53.57:161][698]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (546)
-[2018.07.18-07.53.57:161][698]LogModuleManager: Shutting down and abandoning module SceneOutliner (544)
-[2018.07.18-07.53.57:161][698]LogModuleManager: Shutting down and abandoning module AddContentDialog (542)
-[2018.07.18-07.53.57:161][698]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.07.18-07.53.57:163][698]LogModuleManager: Shutting down and abandoning module WidgetCarousel (541)
-[2018.07.18-07.53.57:163][698]LogModuleManager: Shutting down and abandoning module EditorWidgets (538)
-[2018.07.18-07.53.57:163][698]LogModuleManager: Shutting down and abandoning module CollectionManager (536)
-[2018.07.18-07.53.57:164][698]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Collections/' was aborted.
-[2018.07.18-07.53.57:164][698]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Developers/RyanKelly/Collections/' was aborted.
-[2018.07.18-07.53.57:164][698]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Collections/' was aborted.
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module BspMode (518)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SessionServices (476)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
-[2018.07.18-07.53.57:164][698]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
-[2018.07.18-07.53.57:165][698]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module MergeActors (444)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module SizeMap (442)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module TreeMap (440)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module XmlParser (426)
-[2018.07.18-07.53.58:045][698]LogModuleManager: Shutting down and abandoning module Blutility (424)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
-[2018.07.18-07.53.58:046][698]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module AutomationController (404)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module Layers (400)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module Persona (392)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
-[2018.07.18-07.53.58:111][698]LogModuleManager: Shutting down and abandoning module Kismet (386)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module Toolbox (382)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module OutputLog (376)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module GammaUI (374)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module Documentation (372)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module MovieScene (368)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module PortalServices (360)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module AIModule (354)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module DesktopPlatform (348)
-[2018.07.18-07.53.58:112][698]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
-[2018.07.18-07.53.58:172][698]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
-[2018.07.18-07.53.58:172][698]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (342)
-[2018.07.18-07.53.58:172][698]LogModuleManager: Shutting down and abandoning module SubstanceSource (340)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module SubstanceEditor (338)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (336)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (334)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (332)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (330)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module CableComponent (328)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (326)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module AndroidPermission (324)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module ActorSequence (320)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (318)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (316)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MediaCompositing (314)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module HTML5Networking (312)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module AlembicImporter (310)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module AlembicLibrary (309)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module GeometryCache (308)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (307)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (302)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module PluginBrowser (300)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (298)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (296)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (294)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module SourceControl (285)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
-[2018.07.18-07.53.58:173][698]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
-[2018.07.18-07.53.58:174][698]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
-[2018.07.18-07.53.58:174][698]LogModuleManager: Shutting down and abandoning module MainFrame (270)
-[2018.07.18-07.53.58:174][698]LogModuleManager: Shutting down and abandoning module HotReload (269)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (264)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (262)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module PhysXVehicles (260)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
-[2018.07.18-07.53.58:175][698]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
-[2018.07.18-07.53.58:276][698]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module SubstanceCore (248)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (246)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (244)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module FacialAnimation (242)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (240)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module GraphEditor (239)
-[2018.07.18-07.53.58:377][698]LogModuleManager: Shutting down and abandoning module ContentBrowser (237)
-[2018.07.18-07.53.58:378][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
-[2018.07.18-07.53.58:378][698]LogModuleManager: Shutting down and abandoning module Paper2D (232)
-[2018.07.18-07.53.58:378][698]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (230)
-[2018.07.18-07.53.58:378][698]LogModuleManager: Shutting down and abandoning module WmfMedia (228)
-[2018.07.18-07.53.58:380][698]LogModuleManager: Shutting down and abandoning module ImgMedia (226)
-[2018.07.18-07.53.58:380][698]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
-[2018.07.18-07.53.58:380][698]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
-[2018.07.18-07.53.58:380][698]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
-[2018.07.18-07.53.58:380][698]LogModuleManager: Shutting down and abandoning module MediaAssets (218)
-[2018.07.18-07.53.58:381][698]LogModuleManager: Shutting down and abandoning module Media (217)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module Overlay (214)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module OverlayEditor (213)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.07.18-07.53.58:387][698]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
-[2018.07.18-07.53.58:390][698]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
-[2018.07.18-07.53.58:391][698]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.07.18-07.53.58:606][698]LogDerivedDataCache: Shutdown
-[2018.07.18-07.53.58:606][698]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (95)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.07.18-07.53.58:607][698]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.07.18-07.53.58:608][698]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.07.18-07.53.58:608][698]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.07.18-07.53.58:608][698]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B434F8316-4BF8-D35E-EEB3-699E482B0CEC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=739b29484fe40be668608b992ab0a16c%7Cfca6da8878e34404b63a1f9a2d2e697f%7C1b6bf1c7-0468-4173-b407-17b4d82cf815&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.07.18-07.53.58:635][698]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.07.18-07.53.58:636][698]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.07.18-07.53.58:638][698]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.07.18-07.53.58:643][698]LogExit: Exiting.
-[2018.07.18-07.53.58:663][698]Log file closed, 07/18/18 00:53:58
+[2018.07.19-00.57.14:233][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.19-00.57.14:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.19-00.57.14:350][  0]LogInit: Computer: DESKTOP-66AK4EM
+[2018.07.19-00.57.14:350][  0]LogInit: User: RyanKelly
+[2018.07.19-00.57.14:350][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.07.19-00.57.14:350][  0]LogInit: High frequency timer resolution =3.222655 MHz
+[2018.07.19-00.57.14:353][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.19-00.57.14:357][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.19-00.57.14:357][  0]LogMemory: Process Physical Memory: 274.34 MB used, 274.34 MB peak
+[2018.07.19-00.57.14:357][  0]LogMemory: Process Virtual Memory: 274.02 MB used, 274.02 MB peak
+[2018.07.19-00.57.14:357][  0]LogMemory: Physical Memory: 10409.18 MB used,  5870.17 MB free, 16279.35 MB total
+[2018.07.19-00.57.14:357][  0]LogMemory: Virtual Memory: 4785.21 MB used,  5870.17 MB free, 134217728.00 MB total
+[2018.07.19-00.57.14:955][  0]LogInit: Using OS detected language (en-US).
+[2018.07.19-00.57.14:955][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.19-00.57.15:240][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.19-00.57.16:028][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.19-00.57.19:396][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.19-00.57.19:471][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.07.19-00.57.19:471][  0]LogD3D11RHI:       4043/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.07.19-00.57.19:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.19-00.57.19:488][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.19-00.57.19:488][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.19-00.57.19:504][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.19-00.57.19:504][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.19-00.57.19:504][  0]LogWindows: EnumDisplayDevices:
+[2018.07.19-00.57.19:504][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.07.19-00.57.19:505][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.07.19-00.57.19:505][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.07.19-00.57.19:505][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.07.19-00.57.19:505][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.19-00.57.19:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.07.19-00.57.19:505][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.19-00.57.19:505][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.19-00.57.19:505][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.07.19-00.57.19:545][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.19-00.57.19:772][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.19-00.57.19:997][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Intermediate/Shaders/WorkingDirectory/9204/).
+[2018.07.19-00.57.19:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryan Kelly/AppData/Local/Temp/UnrealShaderWorkingDir/144D670F4491ECB69FFCA29A569B55DA/'.
+[2018.07.19-00.57.20:000][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.19-00.57.25:290][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.19-00.57.25:344][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.19-00.57.25:400][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.19-00.57.25:466][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.19-00.57.25:544][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.19-00.57.25:605][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.19-00.57.25:659][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.19-00.57.25:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.19-00.57.25:765][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.19-00.57.25:824][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.19-00.57.25:877][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.19-00.57.25:960][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.19-00.57.26:028][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.19-00.57.26:089][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.19-00.57.26:213][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.19-00.57.26:213][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.19-00.57.26:290][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.19-00.57.26:339][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.19-00.57.26:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.19-00.57.26:565][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.19-00.57.26:635][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.19-00.57.26:717][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.19-00.57.26:786][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.19-00.57.26:852][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.19-00.57.26:853][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.19-00.57.28:158][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.19-00.57.29:021][  0]LogDerivedDataCache: Loaded boot cache 0.84s 78MB C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.19-00.57.29:021][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.07.19-00.57.29:021][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.19-00.57.29:021][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.19-00.57.29:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.19-00.57.29:022][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.19-00.57.29:275][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.19-00.57.29:289][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.19-00.57.29:529][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.19-00.57.30:029][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.19-00.57.30:519][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.19-00.57.30:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.19-00.57.37:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.19-00.57.38:921][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.19-00.57.38:997][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.19-00.57.38:998][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.19-00.57.38:998][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.19-00.57.38:998][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.19-00.57.38:998][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.19-00.57.39:492][  0]LogNetVersion: TheOnioning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2002623446)
+[2018.07.19-00.57.40:956][  0]LogAssetRegistry: FAssetRegistry took 0.0300 seconds to start up
+[2018.07.19-00.57.47:684][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.116577 seconds
+[2018.07.19-00.57.47:723][  0]LogUObjectArray: 35459 objects as part of root set at end of initial load.
+[2018.07.19-00.57.47:723][  0]LogUObjectAllocator: 7283808 out of 0 bytes used by permanent object pool.
+[2018.07.19-00.57.47:723][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.19-00.57.47:899][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.19-00.58.21:659][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.07.19-00.58.21:829][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.19-00.58.21:896][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.19-00.58.24:464][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.19-00.58.26:051][  0]SourceControl: Source control is disabled
+[2018.07.19-00.58.26:056][  0]SourceControl: Source control is disabled
+[2018.07.19-00.58.26:165][  0]SourceControl: Source control is disabled
+[2018.07.19-00.58.26:287][  0]SourceControl: Source control is disabled
+[2018.07.19-00.58.28:473][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.19-00.58.30:643][  0]LogEngine: Initializing Engine...
+[2018.07.19-00.58.31:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.19-00.58.31:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.19-00.58.32:527][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.19-00.58.32:811][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-00.58.32:831][  0]LogInit: FAudioDevice initialized.
+[2018.07.19-00.58.33:017][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/Ryan Kelly/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.19-00.58.33:047][  0]LogInit: Texture streaming: Enabled
+[2018.07.19-00.58.34:067][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.19-00.58.37:821][  0]LogInit: Transaction tracking system initialized
+[2018.07.19-00.58.38:934][  0]BlueprintLog: New page: Editor Load
+[2018.07.19-00.58.41:225][  0]LocalizationService: Localization service is disabled
+[2018.07.19-00.58.42:415][  0]LogLinker: Warning: Can't find file '/Game/PlayerAssets/FirstPersonOverview'
+[2018.07.19-00.58.42:420][  0]LogLinker: Warning: Can't find file '/Game/PlayerAssets/FirstPersonOverview'
+[2018.07.19-00.58.42:425][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PlayerAssets/FirstPersonOverview.FirstPersonOverview_C'
+[2018.07.19-00.58.43:025][  0]LogConsoleResponse: Display: 
+[2018.07.19-00.58.47:045][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.19-00.58.47:045][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.19-00.58.47:092][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' took 0.14s
+[2018.07.19-00.58.47:092][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.19-00.58.50:882][  0]SourceControl: Source control is disabled
+[2018.07.19-00.58.50:917][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/GameplayTest_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.19-00.58.50:918][  0]LightingResults: New page: Lighting Build
+[2018.07.19-00.58.51:192][  0]MapCheck: New page: Map Check
+[2018.07.19-00.58.51:192][  0]LightingResults: New page: Lighting Build
+[2018.07.19-00.58.56:421][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.19-00.58.59:502][  0]LogAIModule: Creating AISystem for world GameplayTest_MAP
+[2018.07.19-00.59.00:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.19-00.59.00:332][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.19-00.59.00:442][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.738ms to complete.
+[2018.07.19-00.59.00:525][  0]LogFileHelpers: Loading map 'GameplayTest_MAP' took 9.617
+[2018.07.19-00.59.01:957][  0]LogCollectionManager: Loaded 0 collections in 0.019694 seconds
+[2018.07.19-00.59.02:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Collections/' took 0.01s
+[2018.07.19-00.59.02:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Developers/RyanKelly/Collections/' took 0.01s
+[2018.07.19-00.59.02:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Collections/' took 0.01s
+[2018.07.19-00.59.02:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.19-00.59.02:155][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2370 classes and 516 folders.
+[2018.07.19-00.59.02:360][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.19-00.59.04:213][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.19-00.59.04:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.07.19-00.59.05:994][  0]LogSlate: Took 0.008426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.19-00.59.06:006][  0]LogSlate: Took 0.006900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.19-00.59.06:013][  0]LogSlate: Took 0.006298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.19-00.59.06:710][  0]LogRenderer: Reallocating scene render targets to support 1156x712 Format 10 NumSamples 1 (Frame:1).
+[2018.07.19-00.59.07:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.19-00.59.07:739][  0]LogLoad: (Engine Initialization) Total time: 138.29 seconds
+[2018.07.19-00.59.07:739][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.19-00.59.07:756][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.07.19-00.59.07:756][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.07.19-00.59.08:164][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.19-00.59.08:536][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.07.19-00.59.08:603][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' took 0.70s
+[2018.07.19-00.59.09:105][  3]LogAssetRegistry: Asset discovery search completed in 88.1715 seconds
+[2018.07.19-00.59.09:186][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.19-00.59.09:186][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.016027 seconds (updated 0 objects)
+[2018.07.19-00.59.17:401][764]LogSlate: Took 0.015879 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.19-00.59.17:479][764]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.19-00.59.30:632][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Shrek/scare" FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare.uasset" SILENT=true
+[2018.07.19-00.59.31:276][274]LogSavePackage: Save=132.19ms
+[2018.07.19-00.59.31:276][274]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/scareE0DBAEAB49AFF90B20D03F8FCAB227AB.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare.uasset'
+[2018.07.19-00.59.31:281][274]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare.uasset
+[2018.07.19-00.59.40:904][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Shrek/scare2" FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare2.uasset" SILENT=true
+[2018.07.19-00.59.40:920][357]LogSavePackage: Save=8.76ms
+[2018.07.19-00.59.40:920][357]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/scare26AF43FDC4ABD85874CE0AC936D53D16D.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare2.uasset'
+[2018.07.19-00.59.40:921][357]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/scare2.uasset
+[2018.07.19-00.59.48:590][205]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.19-00.59.53:175][527]LightingResults: New page: Lighting Build
+[2018.07.19-00.59.53:301][527]MapCheck: New page: Map Check
+[2018.07.19-00.59.53:301][527]LightingResults: New page: Lighting Build
+[2018.07.19-00.59.53:554][527]LogAIModule: Creating AISystem for world Untitled
+[2018.07.19-00.59.53:709][527]LoadErrors: New page: New Map
+[2018.07.19-01.00.36:181][262]LogSavePackage: Save=4.54ms
+[2018.07.19-01.00.36:181][262]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPBD91EB6247DD1A19161E10B128BCFB12.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.00.36:181][262]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.00.36:239][262]LogFileHelpers: Saving map 'ShrekfestDemoArtTest_MAP' took 0.278
+[2018.07.19-01.00.39:718][630]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.01.02:491][231]Cmd: TRANSACTION UNDO
+[2018.07.19-01.01.02:491][231]LogEditorTransaction: Undo Edit Z
+[2018.07.19-01.01.02:685][231]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.19-01.01.18:852][ 88]LogEditorViewport: Clicking Background
+[2018.07.19-01.01.25:612][439]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Shrek_ANIM_BP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Shrek_ANIM_BP_C_1
+	Function /Game/AI/Shrek/Shrek_ANIM_BP.Shrek_ANIM_BP_C:ExecuteUbergraph_Shrek_ANIM_BP:0069
+[2018.07.19-01.01.39:488][879]Cmd: TRANSACTION UNDO
+[2018.07.19-01.01.39:488][879]LogEditorTransaction: Undo Rotate Actors
+[2018.07.19-01.01.43:262][260]LogEditorViewport: Clicking Background
+[2018.07.19-01.01.50:266][ 65]LogEditorViewport: Clicking Background
+[2018.07.19-01.01.57:234][811]LogEditorViewport: Clicking Background
+[2018.07.19-01.02.00:116][140]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.02.27:768][269]LogEditorViewport: Clicking Background
+[2018.07.19-01.02.39:557][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.02.39:627][516]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:02:39 AM)
+[2018.07.19-01.02.39:643][516]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.02.39:672][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029208s)
+[2018.07.19-01.02.39:673][516]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.02.39:687][516]LogPlayLevel: PIE: World Init took: (0.014427s)
+[2018.07.19-01.02.39:702][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.057776s)
+[2018.07.19-01.02.39:887][516]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.02.39:896][516]LogInit: FAudioDevice initialized.
+[2018.07.19-01.02.39:979][516]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.02.40:083][516]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.02.40
+[2018.07.19-01.02.40:245][516]LogWorld: Bringing up level for play took: 0.179839
+[2018.07.19-01.02.40:466][516]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.07.19-01.02.40:563][516]LogBlueprintUserMessages: [CrossHair_UI_C_0] Good?
+[2018.07.19-01.02.40:573][516]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP 1.876
+[2018.07.19-01.02.40:596][516]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.02.57:681][403]LogEditorViewport: Clicking Background
+[2018.07.19-01.02.59:787][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.02.59:787][628]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:02:59 AM)
+[2018.07.19-01.02.59:787][628]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.02.59:789][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001907s)
+[2018.07.19-01.02.59:790][628]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.02.59:790][628]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2018.07.19-01.02.59:790][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.002688s)
+[2018.07.19-01.02.59:811][628]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.02.59:818][628]LogInit: FAudioDevice initialized.
+[2018.07.19-01.02.59:850][628]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.02.59:851][628]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.02.59
+[2018.07.19-01.02.59:852][628]LogWorld: Bringing up level for play took: 0.001790
+[2018.07.19-01.02.59:854][628]LogBlueprintUserMessages: [CrossHair_UI_C_1] Good?
+[2018.07.19-01.02.59:854][628]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.843
+[2018.07.19-01.02.59:864][628]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.03.11:291][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.03.11:291][896]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:03:11 AM)
+[2018.07.19-01.03.11:291][896]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.03.11:293][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2018.07.19-01.03.11:293][896]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.03.11:293][896]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2018.07.19-01.03.11:294][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.002677s)
+[2018.07.19-01.03.11:314][896]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.03.11:322][896]LogInit: FAudioDevice initialized.
+[2018.07.19-01.03.11:356][896]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.03.11:358][896]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.03.11
+[2018.07.19-01.03.11:359][896]LogWorld: Bringing up level for play took: 0.001851
+[2018.07.19-01.03.11:361][896]LogBlueprintUserMessages: [CrossHair_UI_C_2] Good?
+[2018.07.19-01.03.11:361][896]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP 0.664
+[2018.07.19-01.03.11:371][896]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.03.12:946][ 84]Cmd: LevelEditor.ToggleImmersive
+[2018.07.19-01.03.13:249][ 85]LogRenderer: Reallocating scene render targets to support 2052x828 Format 10 NumSamples 1 (Frame:190).
+[2018.07.19-01.03.23:882][202]LogEditorViewport: Clicking Background
+[2018.07.19-01.03.31:006][ 41]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.03.54:577][636]LogEditorViewport: Clicking Background
+[2018.07.19-01.04.00:788][307]LogEditorViewport: Clicking Background
+[2018.07.19-01.04.03:670][614]LogEditorViewport: Clicking Background
+[2018.07.19-01.04.09:999][260]LogEditorViewport: Clicking Background
+[2018.07.19-01.07.34:139][741]LogSubstanceSource: Loading Substance Source Database
+[2018.07.19-01.07.34:181][741]LogSlate: Took 0.006784 seconds to synchronously load lazily loaded font '../../../Engine/Plugins/Marketplace/Substance/Content/SourceFont/Gotham Book Regular.otf' (29K)
+[2018.07.19-01.07.34:644][797]LogEditorViewport: Clicking Background
+[2018.07.19-01.07.37:359][101]LogSavePackage: Save=65.91ms
+[2018.07.19-01.07.37:359][101]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPF08D361B4B156E1D557E1E9D76B2A22E.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.07.37:362][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.07.43:801][788]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.07.43:838][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.07.43:839][788]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:07:43 AM)
+[2018.07.19-01.07.43:839][788]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.07.43:841][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002638s)
+[2018.07.19-01.07.43:842][788]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.07.43:842][788]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2018.07.19-01.07.43:842][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003543s)
+[2018.07.19-01.07.43:865][788]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.07.43:873][788]LogInit: FAudioDevice initialized.
+[2018.07.19-01.07.43:906][788]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.07.43:908][788]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.07.43
+[2018.07.19-01.07.43:919][788]LogWorld: Bringing up level for play took: 0.012265
+[2018.07.19-01.07.43:933][788]LogBlueprintUserMessages: [CrossHair_UI_C_3] Good?
+[2018.07.19-01.07.43:934][788]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.763
+[2018.07.19-01.07.43:936][788]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.07.47:779][186]LogEditorViewport: Clicking Background
+[2018.07.19-01.07.55:694][ 66]LogEditorViewport: Clicking Background
+[2018.07.19-01.07.57:697][291]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.07.57:718][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.07.57:718][291]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:07:57 AM)
+[2018.07.19-01.07.57:718][291]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.07.57:721][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002544s)
+[2018.07.19-01.07.57:721][291]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.07.57:722][291]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2018.07.19-01.07.57:722][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003327s)
+[2018.07.19-01.07.57:742][291]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.07.57:750][291]LogInit: FAudioDevice initialized.
+[2018.07.19-01.07.57:784][291]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.07.57:786][291]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.07.57
+[2018.07.19-01.07.57:787][291]LogWorld: Bringing up level for play took: 0.001886
+[2018.07.19-01.07.57:789][291]LogBlueprintUserMessages: [CrossHair_UI_C_4] Good?
+[2018.07.19-01.07.57:789][291]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.908
+[2018.07.19-01.07.57:791][291]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.08.03:018][918]Cmd: LevelEditor.ToggleImmersive
+[2018.07.19-01.08.07:151][397]LogBlueprintUserMessages: [Shrek_AI_18] Ded
+[2018.07.19-01.08.08:960][613]LogNet: Browse: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.08:966][613]LogLoad: LoadMap: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.08:994][613]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.08:997][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002544s)
+[2018.07.19-01.08.08:997][613]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.08:997][613]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2018.07.19-01.08.08:997][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003294s)
+[2018.07.19-01.08.08:997][613]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.08.08:999][613]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.08.08
+[2018.07.19-01.08.09:000][613]LogWorld: Bringing up level for play took: 0.001751
+[2018.07.19-01.08.09:000][613]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.19-01.08.09:001][613]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [Player_PLAYERBLUEPRINT_C]
+[2018.07.19-01.08.09:001][613]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Player_PLAYERBLUEPRINT_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.07.19-01.08.09:001][613]LogLoad: Took 0.035510 seconds to LoadMap(/Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP)
+[2018.07.19-01.08.22:146][118]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.19-01.08.23:792][293]LogEditorViewport: Clicking on Actor (LMB): Shrek_AI_C (Shrek_AI)
+[2018.07.19-01.08.25:036][408]LogSlate: Took 0.009442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.19-01.08.26:970][559]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.19-01.08.28:365][559]LogSlate: Took 0.014295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.19-01.08.53:835][573]BlueprintLog: New page: Compile Shrek_AI
+[2018.07.19-01.08.55:677][656]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.08.55:707][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.08.55:707][656]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:08:55 AM)
+[2018.07.19-01.08.55:707][656]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.55:710][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002665s)
+[2018.07.19-01.08.55:710][656]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.08.55:711][656]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2018.07.19-01.08.55:711][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003434s)
+[2018.07.19-01.08.55:766][656]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.08.55:775][656]LogInit: FAudioDevice initialized.
+[2018.07.19-01.08.55:803][656]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.08.55:804][656]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.08.55
+[2018.07.19-01.08.55:805][656]LogWorld: Bringing up level for play took: 0.001886
+[2018.07.19-01.08.55:807][656]LogBlueprintUserMessages: [CrossHair_UI_C_5] Good?
+[2018.07.19-01.08.55:807][656]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.889
+[2018.07.19-01.08.55:810][656]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.09.03:876][604]LogBlueprintUserMessages: [Shrek_AI_18] Ded
+[2018.07.19-01.09.05:681][819]LogNet: Browse: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.05:681][819]LogLoad: LoadMap: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.05:703][819]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.05:706][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2018.07.19-01.09.05:706][819]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.05:707][819]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2018.07.19-01.09.05:707][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003331s)
+[2018.07.19-01.09.05:707][819]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.09.05:708][819]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.09.05
+[2018.07.19-01.09.05:709][819]LogWorld: Bringing up level for play took: 0.001740
+[2018.07.19-01.09.05:711][819]LogBlueprintUserMessages: [CrossHair_UI_C_6] Good?
+[2018.07.19-01.09.05:711][819]LogLoad: Took 0.029668 seconds to LoadMap(/Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP)
+[2018.07.19-01.09.05:711][819]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.09.10:452][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Shrek/Shrek_AI" FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset" SILENT=true
+[2018.07.19-01.09.10:550][362]LogSavePackage: Save=88.01ms
+[2018.07.19-01.09.10:550][362]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Shrek_AI55467764453E65DBCF6ECB8507169AA9.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset'
+[2018.07.19-01.09.10:551][362]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset
+[2018.07.19-01.09.22:864][815]LogSavePackage: Save=30.10ms
+[2018.07.19-01.09.22:864][815]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPA5082A0F4887D320CF445A95940EBBF0.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.09.22:866][815]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.09.24:712][ 32]LogEditorViewport: Clicking on Actor (LMB): Shrek_AI_C (Shrek_AI)
+[2018.07.19-01.09.40:967][336]BlueprintLog: New page: Compile Shrek_AI
+[2018.07.19-01.09.41:433][336]BlueprintLog: New page: Compile Shrek_AI
+[2018.07.19-01.09.48:295][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Shrek/Shrek_AI" FILE="../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset" SILENT=true
+[2018.07.19-01.09.48:352][818]LogSavePackage: Save=47.47ms
+[2018.07.19-01.09.48:352][818]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Shrek_AI3F4AF9624D8CE0901938B0A7D9C54A46.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset'
+[2018.07.19-01.09.48:353][818]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/AI/Shrek/Shrek_AI.uasset
+[2018.07.19-01.09.53:127][250]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.09.53:151][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.09.53:151][250]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:09:53 AM)
+[2018.07.19-01.09.53:151][250]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.53:153][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002601s)
+[2018.07.19-01.09.53:154][250]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.09.53:154][250]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2018.07.19-01.09.53:154][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003419s)
+[2018.07.19-01.09.53:211][250]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.09.53:219][250]LogInit: FAudioDevice initialized.
+[2018.07.19-01.09.53:247][250]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.09.53:249][250]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.09.53
+[2018.07.19-01.09.53:250][250]LogWorld: Bringing up level for play took: 0.001971
+[2018.07.19-01.09.53:252][250]LogBlueprintUserMessages: [CrossHair_UI_C_7] Good?
+[2018.07.19-01.09.53:252][250]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP 0.554
+[2018.07.19-01.09.53:254][250]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.10.00:923][170]LogBlueprintUserMessages: [Shrek_AI_18] Ded
+[2018.07.19-01.10.02:725][385]LogNet: Browse: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.10.02:725][385]LogLoad: LoadMap: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.10.02:747][385]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.10.02:749][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002611s)
+[2018.07.19-01.10.02:750][385]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.10.02:750][385]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2018.07.19-01.10.02:750][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003430s)
+[2018.07.19-01.10.02:750][385]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.10.02:751][385]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.10.02
+[2018.07.19-01.10.02:752][385]LogWorld: Bringing up level for play took: 0.001764
+[2018.07.19-01.10.02:754][385]LogBlueprintUserMessages: [CrossHair_UI_C_8] Good?
+[2018.07.19-01.10.02:754][385]LogLoad: Took 0.029063 seconds to LoadMap(/Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP)
+[2018.07.19-01.10.02:755][385]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.11.18:842][549]BlueprintLog: New page: Compile ShrekFestDemo_PPB
+[2018.07.19-01.11.25:250][204]LogEditorViewport: Clicking Background
+[2018.07.19-01.11.46:823][460]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2018.07.19-01.11.47:893][565]LogEditorViewport: Clicking Background
+[2018.07.19-01.11.49:586][747]LogSavePackage: Save=32.61ms
+[2018.07.19-01.11.49:586][747]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP40E71610401781A2D8CEA18A372FAB1C.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.11.49:587][747]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.11.50:887][872]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.11.50:912][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.11.50:912][872]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:11:50 AM)
+[2018.07.19-01.11.50:912][872]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.11.51:026][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114024s)
+[2018.07.19-01.11.51:026][872]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.11.51:027][872]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2018.07.19-01.11.51:027][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.114949s)
+[2018.07.19-01.11.51:055][872]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.11.51:063][872]LogInit: FAudioDevice initialized.
+[2018.07.19-01.11.51:096][872]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.11.51:098][872]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.11.51
+[2018.07.19-01.11.51:099][872]LogWorld: Bringing up level for play took: 0.002086
+[2018.07.19-01.11.51:101][872]LogBlueprintUserMessages: [CrossHair_UI_C_9] Good?
+[2018.07.19-01.11.51:101][872]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP 0.404
+[2018.07.19-01.11.51:103][872]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.11.58:766][786]LogBlueprintUserMessages: [Shrek_AI_18] Ded
+[2018.07.19-01.12.00:567][  2]LogNet: Browse: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.12.00:567][  2]LogLoad: LoadMap: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.12.00:589][  2]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.12.00:592][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002667s)
+[2018.07.19-01.12.00:592][  2]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.12.00:592][  2]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2018.07.19-01.12.00:592][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003416s)
+[2018.07.19-01.12.00:592][  2]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.12.00:594][  2]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.12.00
+[2018.07.19-01.12.00:595][  2]LogWorld: Bringing up level for play took: 0.001803
+[2018.07.19-01.12.00:596][  2]LogBlueprintUserMessages: [CrossHair_UI_C_10] Good?
+[2018.07.19-01.12.00:596][  2]LogLoad: Took 0.028956 seconds to LoadMap(/Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP)
+[2018.07.19-01.12.00:597][  2]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.12.20:652][386]LogSavePackage: Save=32.27ms
+[2018.07.19-01.12.20:652][386]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP827A437A4C94BCC0527FEDA274892CF0.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.12.20:653][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.12.31:619][588]Cmd: TRANSACTION UNDO
+[2018.07.19-01.12.31:619][588]LogEditorTransaction: Undo Create Actors
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 3
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 4
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 5
+[2018.07.19-01.12.31:631][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 6
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 7
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 8
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 9
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 10
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: None, Buffer: 0, Buffer Size: 0, Element: 11
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP:PersistentLevel.ModelComponent_235' invalid (212 verts, 0 indices).
+[2018.07.19-01.12.31:632][588]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP:PersistentLevel.ModelComponent_235.BodySetup_235 when we are unable to.
+[2018.07.19-01.12.49:797][540]LogEditorViewport: Clicking Background
+[2018.07.19-01.12.58:261][531]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.13.07:599][441]LogMaterial: Missing cached shader map for material M_ClearCoatBlack, compiling. 
+[2018.07.19-01.13.07:788][441]LogMaterial: Missing cached shader map for material M_ClearCoat, compiling. 
+[2018.07.19-01.13.07:828][441]LogMaterial: Missing cached shader map for material M_ChromeBall, compiling. 
+[2018.07.19-01.13.07:895][441]LogMaterial: Missing cached shader map for material M_ColorGrid, compiling. 
+[2018.07.19-01.13.08:410][441]LogMaterial: Missing cached shader map for material M_GreyBall, compiling. 
+[2018.07.19-01.13.08:454][441]Cmd: DELETE
+[2018.07.19-01.13.08:454][441]Cmd: ACTOR DELETE
+[2018.07.19-01.13.08:633][441]LogEditorActor: Deleted Actor: Brush
+[2018.07.19-01.13.08:708][441]LogEditorActor: Deleted 1 Actors (0.189 secs)
+[2018.07.19-01.13.16:776][ 89]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.13.59:614][460]Cmd: TRANSACTION UNDO
+[2018.07.19-01.13.59:614][460]LogEditorTransaction: Undo Edit Y
+[2018.07.19-01.14.05:412][ 65]LogEditorViewport: Clicking Background
+[2018.07.19-01.14.14:062][897]LogEditorViewport: Clicking Background
+[2018.07.19-01.15.02:676][851]LogEditorViewport: Clicking Background
+[2018.07.19-01.15.03:778][959]LogSavePackage: Save=62.02ms
+[2018.07.19-01.15.03:778][959]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP8805738F42D1E139E1D84B83F142063F.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.15.03:779][959]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.15.07:833][376]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.07.19-01.15.10:589][621]LogEditorViewport: Clicking Background
+[2018.07.19-01.15.23:688][180]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.15.23:713][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.15.23:713][180]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:15:23 AM)
+[2018.07.19-01.15.23:714][180]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.15.23:717][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002974s)
+[2018.07.19-01.15.23:717][180]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.15.23:717][180]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.07.19-01.15.23:717][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.003892s)
+[2018.07.19-01.15.23:746][180]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.15.23:754][180]LogInit: FAudioDevice initialized.
+[2018.07.19-01.15.23:788][180]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.15.23:790][180]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.15.23
+[2018.07.19-01.15.23:791][180]LogWorld: Bringing up level for play took: 0.002148
+[2018.07.19-01.15.23:793][180]LogBlueprintUserMessages: [CrossHair_UI_C_11] Good?
+[2018.07.19-01.15.23:793][180]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.904
+[2018.07.19-01.15.23:795][180]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.16.00:633][984]LogEditorViewport: Clicking Background
+[2018.07.19-01.16.06:164][621]LogEditorViewport: Clicking Background
+[2018.07.19-01.16.21:926][450]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2018.07.19-01.16.31:963][410]LogEditorViewport: Clicking Background
+[2018.07.19-01.16.35:598][810]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2018.07.19-01.16.42:288][511]LogEditorViewport: Clicking Background
+[2018.07.19-01.16.44:779][786]LogSavePackage: Save=39.78ms
+[2018.07.19-01.16.44:779][786]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP4E67F0C84E9923CFFBC2399775A2865B.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.16.44:781][786]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.16.55:984][ 34]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.19-01.16.57:162][148]Cmd: DELETE
+[2018.07.19-01.16.57:162][148]Cmd: ACTOR DELETE
+[2018.07.19-01.16.57:164][148]LogEditorActor: Deleted Actor: Brush
+[2018.07.19-01.16.57:304][148]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2018.07.19-01.17.06:513][ 56]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2018.07.19-01.17.44:154][869]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2018.07.19-01.18.17:097][453]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.07.19-01.18.28:899][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.07.19-01.18.33:285][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.07.19-01.19.03:621][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.07.19-01.19.06:754][256]LogSavePackage: Save=1014.84ms
+[2018.07.19-01.19.06:754][256]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPFD6407D64B034B6ED6791B92A3017497.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.19.06:755][256]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.19.06:792][256]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.19-01.19.25:862][165]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.07.19-01.19.46:251][133]LogEditorViewport: Clicking on Actor (LMB): WaterPlane_BP_C (WaterPlane_BP)
+[2018.07.19-01.19.52:899][756]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.07.19-01.19.52:902][756]LogMaterial: Missing cached shader map for material Water_MAT, compiling. 
+[2018.07.19-01.19.53:762][756]LogMaterial: Missing cached shader map for material Water_MAT, compiling. 
+[2018.07.19-01.19.53:865][756]LogMaterial: Missing cached shader map for material Water_MAT, compiling. 
+[2018.07.19-01.19.54:003][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.07.19-01.19.54:697][771]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.07.19-01.19.54:697][771]MaterialEditorStats: Base pass shader with Surface Lightmap: 117 instructions
+[2018.07.19-01.19.54:697][771]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.07.19-01.19.54:697][771]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.07.19-01.19.54:697][771]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.19-01.20.02:399][391]LogSavePackage: Save=34.25ms
+[2018.07.19-01.20.02:399][391]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/WaterPlane_BPFC50100447257DFDC9F1309CABB4EFDC.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/Blueprints_PROPS/WaterPlane_BP.uasset'
+[2018.07.19-01.20.02:400][391]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/Blueprints_PROPS/WaterPlane_BP.uasset
+[2018.07.19-01.20.04:478][590]LogSavePackage: Save=7.06ms
+[2018.07.19-01.20.04:478][590]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekFestDemo_PPB877AACAD4819C1CF834AABAE11B186AE.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/PostProcessBlueprints/ShrekFestDemo_PPB.uasset'
+[2018.07.19-01.20.04:479][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/PostProcessBlueprints/ShrekFestDemo_PPB.uasset
+[2018.07.19-01.20.04:902][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.19-01.21.01:485][737]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.21.01:628][737]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.21.01:649][737]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.21.01:695][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2018.07.19-01.21.01:709][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2018.07.19-01.21.01:744][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.19-01.21.01:756][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.19-01.21.01:761][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.07.19-01.21.01:805][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2018.07.19-01.21.01:814][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2018.07.19-01.21.01:828][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2018.07.19-01.21.01:833][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.07.19-01.21.01:837][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2018.07.19-01.21.02:837][779]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.21.02:838][779]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.21.02:838][779]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.21.02:838][779]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.21.02:838][779]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.21.02:838][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.21.46:766][ 99]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.21.46:945][100]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.21.47:921][156]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.22.11:013][353]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.22.12:148][418]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.22.12:292][432]LogMaterialEditor: Applying material M_Water_Lake
+[2018.07.19-01.22.12:785][432]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.22.12:857][432]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.22.12:973][432]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.22.13:093][432]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Water_Lake, compiling. 
+[2018.07.19-01.22.13:681][432]TextureStreamingBuild: Display: Compiling optional shaders took 0.620 seconds.
+[2018.07.19-01.22.15:229][542]LogMaterialEditor: Saving and Compiling material M_Water_Lake
+[2018.07.19-01.22.15:824][542]LogSavePackage: Save=24.61ms
+[2018.07.19-01.22.15:824][542]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/M_Water_Lake5583BB364375CBC84EFFEF970D4CBFBF.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/StarterContent/Materials/M_Water_Lake.uasset'
+[2018.07.19-01.22.15:826][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.22.15:842][542]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.22.50:596][403]LogEditorViewport: Clicking Background
+[2018.07.19-01.22.58:219][307]LogEditorViewport: Clicking on Actor (LMB): WaterPlane_BP_C (WaterPlane_BP)
+[2018.07.19-01.23.11:298][742]LogSavePackage: Save=170.29ms
+[2018.07.19-01.23.11:298][742]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPECCE4DE241E4F5444BF99E874F9C3CFB.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.23.11:299][742]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.23.11:707][763]LogEditorViewport: Clicking Background
+[2018.07.19-01.24.17:462][557]LogClass: Warning: In asset 'None', there is an enum property of type 'EBloomMethod' with an invalid value of ''
+[2018.07.19-01.24.17:462][557]LogClass: Warning: In asset 'None', there is an enum property of type 'EBloomMethod' with an invalid value of ''
+[2018.07.19-01.24.24:457][218]LogClass: Warning: In asset 'None', there is an enum property of type 'EBloomMethod' with an invalid value of ''
+[2018.07.19-01.24.24:457][218]LogClass: Warning: In asset 'None', there is an enum property of type 'EBloomMethod' with an invalid value of ''
+[2018.07.19-01.25.46:612][474]LogEditorViewport: Clicking Background
+[2018.07.19-01.25.47:780][581]LogSavePackage: Save=172.64ms
+[2018.07.19-01.25.47:780][581]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPF5EF7A93400CF2E987892CA108BBE485.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.25.47:782][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.27.49:074][120]LogEditorViewport: Clicking on Actor (context menu): WaterPlane_BP_C (WaterPlane_BP)
+[2018.07.19-01.27.50:061][188]LogEditorViewport: Clicking Background
+[2018.07.19-01.27.50:590][221]LogSavePackage: Save=171.85ms
+[2018.07.19-01.27.50:590][221]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP35F48F3F4B0180C410682387221C37EB.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.27.50:591][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.27.51:790][346]BlueprintLog: New page: Compile ShrekFestDemo_PPB
+[2018.07.19-01.34.56:108][105]LogEditorViewport: Clicking on Actor (LMB): WaterPlane_BP_C (WaterPlane_BP)
+[2018.07.19-01.35.06:671][ 24]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.35.06:773][ 24]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.35.06:794][ 24]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.35.06:849][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2018.07.19-01.35.06:864][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2018.07.19-01.35.06:879][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.19-01.35.06:891][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.19-01.35.06:897][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.07.19-01.35.06:902][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2018.07.19-01.35.06:907][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2018.07.19-01.35.06:911][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2018.07.19-01.35.06:921][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.07.19-01.35.06:926][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.35.08:017][ 77]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.35.27:749][567]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.35.28:599][616]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.04:820][111]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.04:860][111]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.06:028][175]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.09:012][454]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.09:825][499]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.10:248][539]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.11:040][583]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.11:041][583]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.11:041][583]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.11:041][583]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.11:041][583]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.11:041][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.12:542][722]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.12:543][722]LogMaterial: Warning: /Engine/Transient.M_Water_Lake (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.07.19-01.36.12:543][722]LogMaterial: 	(Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2018.07.19-01.36.12:544][722]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2018.07.19-01.36.15:280][975]LogEditorTransaction: Undo Move Node
+[2018.07.19-01.36.15:298][975]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.15:299][975]LogMaterial: Warning: /Engine/Transient.M_Water_Lake (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.07.19-01.36.15:299][975]LogMaterial: 	(Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2018.07.19-01.36.15:465][982]LogEditorTransaction: Undo Create Pin Link
+[2018.07.19-01.36.15:487][982]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.15:508][982]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.15:649][983]LogEditorTransaction: Undo Create Pin Link
+[2018.07.19-01.36.15:664][983]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.15:694][983]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.16:440][ 17]LogEditorTransaction: Undo Create Pin Link
+[2018.07.19-01.36.16:444][ 17]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.16:467][ 17]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.17:009][ 38]LogEditorTransaction: Undo Move Node
+[2018.07.19-01.36.17:013][ 38]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.17:586][ 61]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.07.19-01.36.17:591][ 61]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.17:641][ 61]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.18:558][106]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.18:792][128]LogEditorTransaction: Undo Move Node
+[2018.07.19-01.36.18:796][128]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.19:565][165]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.20:007][204]LogMaterialEditor: Applying material M_Water_Lake
+[2018.07.19-01.36.20:478][204]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.20:536][204]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.20:627][204]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.07.19-01.36.20:718][204]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Water_Lake, compiling. 
+[2018.07.19-01.36.21:320][204]TextureStreamingBuild: Display: Compiling optional shaders took 0.611 seconds.
+[2018.07.19-01.36.21:755][221]LogMaterialEditor: Saving and Compiling material M_Water_Lake
+[2018.07.19-01.36.23:359][221]LogSavePackage: Save=24.40ms
+[2018.07.19-01.36.23:359][221]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/M_Water_Lake9587E7044FFBF796756F8F85FFB24968.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/StarterContent/Materials/M_Water_Lake.uasset'
+[2018.07.19-01.36.23:360][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: Texture samplers: 4/16
+[2018.07.19-01.36.23:366][221]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.19-01.36.24:840][345]LogSavePackage: Save=7.22ms
+[2018.07.19-01.36.24:840][345]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekFestDemo_PPB5FBD59674C7D409931F727AD01A0D710.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/PostProcessBlueprints/ShrekFestDemo_PPB.uasset'
+[2018.07.19-01.36.24:841][345]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Blueprints/PostProcessBlueprints/ShrekFestDemo_PPB.uasset
+[2018.07.19-01.36.29:681][893]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.36.29:704][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.36.29:704][893]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:36:29 AM)
+[2018.07.19-01.36.29:704][893]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.29:730][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026116s)
+[2018.07.19-01.36.29:730][893]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.29:731][893]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2018.07.19-01.36.29:731][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.026974s)
+[2018.07.19-01.36.29:760][893]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.36.29:768][893]LogInit: FAudioDevice initialized.
+[2018.07.19-01.36.29:799][893]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.36.29:802][893]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.36.29
+[2018.07.19-01.36.29:803][893]LogWorld: Bringing up level for play took: 0.003699
+[2018.07.19-01.36.29:805][893]LogBlueprintUserMessages: [CrossHair_UI_C_12] Good?
+[2018.07.19-01.36.29:806][893]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.892
+[2018.07.19-01.36.29:808][893]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.36.36:753][726]LogBlueprintUserMessages: [Shrek_AI_18] Ded
+[2018.07.19-01.36.38:561][941]LogNet: Browse: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.38:561][941]LogLoad: LoadMap: /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.38:589][941]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.38:599][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009504s)
+[2018.07.19-01.36.38:600][941]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.36.38:600][941]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2018.07.19-01.36.38:600][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.010484s)
+[2018.07.19-01.36.38:600][941]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.36.38:603][941]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.36.38
+[2018.07.19-01.36.38:604][941]LogWorld: Bringing up level for play took: 0.003571
+[2018.07.19-01.36.38:606][941]LogBlueprintUserMessages: [CrossHair_UI_C_13] Good?
+[2018.07.19-01.36.38:606][941]LogLoad: Took 0.044600 seconds to LoadMap(/Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP)
+[2018.07.19-01.36.38:607][941]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.36.40:122][ 87]LogSavePackage: Save=174.11ms
+[2018.07.19-01.36.40:122][ 87]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP3B0A2F0F47A7DB9BBD629B88D1CB2C7A.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.36.40:124][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.41.19:538][ 77]LogSavePackage: Save=171.96ms
+[2018.07.19-01.41.19:538][ 77]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPF65C81FC4C3E3C97CD5438A3F4B823BD.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.41.19:539][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.41.35:718][842]Cmd: DELETE
+[2018.07.19-01.41.35:718][842]Cmd: ACTOR DELETE
+[2018.07.19-01.41.35:722][842]LogEditorActor: Deleted Actor: PointLight
+[2018.07.19-01.41.35:743][842]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.07.19-01.41.42:285][613]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.07.19-01.41.46:775][129]Cmd: DELETE
+[2018.07.19-01.41.46:775][129]Cmd: ACTOR DELETE
+[2018.07.19-01.41.46:779][129]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.19-01.41.46:800][129]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.07.19-01.41.50:862][570]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.07.19-01.42.12:360][888]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.19-01.42.12:382][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.19-01.42.12:382][888]PIE: New page: PIE session: ShrekfestDemoArtTest_MAP (Jul 18, 2018, 11:42:12 AM)
+[2018.07.19-01.42.12:382][888]LogPlayLevel: Creating play world package: /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP
+[2018.07.19-01.42.12:392][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010078s)
+[2018.07.19-01.42.12:393][888]LogAIModule: Creating AISystem for world ShrekfestDemoArtTest_MAP
+[2018.07.19-01.42.12:393][888]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.07.19-01.42.12:393][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TESTING/ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP to /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP (0.011058s)
+[2018.07.19-01.42.12:421][888]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.19-01.42.12:429][888]LogInit: FAudioDevice initialized.
+[2018.07.19-01.42.12:463][888]LogLoad: Game class is 'Player_GM_C'
+[2018.07.19-01.42.12:467][888]LogWorld: Bringing World /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP.ShrekfestDemoArtTest_MAP up for play (max tick rate 0) at 2018.07.18-18.42.12
+[2018.07.19-01.42.12:468][888]LogWorld: Bringing up level for play took: 0.003915
+[2018.07.19-01.42.12:470][888]LogBlueprintUserMessages: [CrossHair_UI_C_14] Good?
+[2018.07.19-01.42.12:470][888]PIE: Play in editor start time for /Game/Maps/TESTING/UEDPIE_0_ShrekfestDemoArtTest_MAP -0.227
+[2018.07.19-01.42.12:472][888]LogBlueprintUserMessages: [Shrek_CONTROLLER_C_0] true
+[2018.07.19-01.42.18:039][519]LogSavePackage: Save=175.19ms
+[2018.07.19-01.42.18:039][519]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAPA27E9B0645663F690A19149814865391.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.42.18:041][519]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.42.20:575][781]LogSavePackage: Save=172.10ms
+[2018.07.19-01.42.20:575][781]LogSavePackage: Moving '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/ShrekfestDemoArtTest_MAP0E8AB41A4CC4B5E2BD4F32AC176F0CD2.tmp' to '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap'
+[2018.07.19-01.42.20:576][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Maps/TESTING/ShrekfestDemoArtTest_MAP.umap
+[2018.07.19-01.42.21:547][826]Cmd: QUIT_EDITOR
+[2018.07.19-01.42.21:982][826]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.19-01.42.22:007][826]LogExit: Preparing to exit.
+[2018.07.19-01.42.22:509][826]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' was aborted.
+[2018.07.19-01.42.22:661][826]LogExit: Editor shut down
+[2018.07.19-01.42.22:686][826]LogExit: Transaction tracking system shut down
+[2018.07.19-01.42.22:993][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.19-01.42.22:993][826]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/' was aborted.
+[2018.07.19-01.42.22:993][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.19-01.42.22:993][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.19-01.42.22:993][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.19-01.42.23:973][826]LogExit: Object subsystem successfully closed.
+[2018.07.19-01.42.24:137][826]LogD3D11RHI: Shutdown
+[2018.07.19-01.42.24:159][826]LogD3D11RHI: CleanupD3DDevice
+[2018.07.19-01.42.24:173][826]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module MaterialEditor (558)
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (552)
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module NewLevelDialog (550)
+[2018.07.19-01.42.24:744][826]LogModuleManager: Shutting down and abandoning module TextureEditor (548)
+[2018.07.19-01.42.24:754][826]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (546)
+[2018.07.19-01.42.24:754][826]LogModuleManager: Shutting down and abandoning module SceneOutliner (544)
+[2018.07.19-01.42.24:754][826]LogModuleManager: Shutting down and abandoning module AddContentDialog (542)
+[2018.07.19-01.42.24:759][826]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.07.19-01.42.24:769][826]LogModuleManager: Shutting down and abandoning module WidgetCarousel (541)
+[2018.07.19-01.42.24:769][826]LogModuleManager: Shutting down and abandoning module EditorWidgets (538)
+[2018.07.19-01.42.24:769][826]LogModuleManager: Shutting down and abandoning module CollectionManager (536)
+[2018.07.19-01.42.24:788][826]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Collections/' was aborted.
+[2018.07.19-01.42.24:788][826]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Content/Developers/RyanKelly/Collections/' was aborted.
+[2018.07.19-01.42.24:789][826]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryan Kelly/Documents/GitHub/TheOnioning/TheOnioning/Saved/Collections/' was aborted.
+[2018.07.19-01.42.24:789][826]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
+[2018.07.19-01.42.24:806][826]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
+[2018.07.19-01.42.24:806][826]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module BspMode (518)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
+[2018.07.19-01.42.24:807][826]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
+[2018.07.19-01.42.24:813][826]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
+[2018.07.19-01.42.24:822][826]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
+[2018.07.19-01.42.24:822][826]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2018.07.19-01.42.24:850][826]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
+[2018.07.19-01.42.24:859][826]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
+[2018.07.19-01.42.24:859][826]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
+[2018.07.19-01.42.24:859][826]LogModuleManager: Shutting down and abandoning module SessionServices (476)
+[2018.07.19-01.42.24:860][826]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
+[2018.07.19-01.42.24:860][826]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
+[2018.07.19-01.42.24:860][826]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
+[2018.07.19-01.42.24:916][826]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
+[2018.07.19-01.42.24:917][826]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
+[2018.07.19-01.42.24:987][826]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
+[2018.07.19-01.42.25:006][826]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
+[2018.07.19-01.42.25:012][826]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
+[2018.07.19-01.42.25:012][826]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
+[2018.07.19-01.42.25:012][826]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
+[2018.07.19-01.42.25:012][826]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
+[2018.07.19-01.42.25:476][826]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
+[2018.07.19-01.42.25:477][826]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
+[2018.07.19-01.42.25:477][826]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
+[2018.07.19-01.42.25:477][826]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
+[2018.07.19-01.42.25:499][826]LogModuleManager: Shutting down and abandoning module MergeActors (444)
+[2018.07.19-01.42.25:503][826]LogModuleManager: Shutting down and abandoning module SizeMap (442)
+[2018.07.19-01.42.25:503][826]LogModuleManager: Shutting down and abandoning module TreeMap (440)
+[2018.07.19-01.42.25:505][826]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
+[2018.07.19-01.42.25:505][826]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
+[2018.07.19-01.42.25:509][826]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
+[2018.07.19-01.42.25:515][826]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
+[2018.07.19-01.42.25:515][826]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
+[2018.07.19-01.42.25:515][826]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
+[2018.07.19-01.42.25:515][826]LogModuleManager: Shutting down and abandoning module XmlParser (426)
+[2018.07.19-01.42.25:524][826]LogModuleManager: Shutting down and abandoning module Blutility (424)
+[2018.07.19-01.42.25:524][826]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
+[2018.07.19-01.42.25:524][826]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
+[2018.07.19-01.42.25:524][826]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
+[2018.07.19-01.42.25:524][826]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
+[2018.07.19-01.42.25:533][826]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
+[2018.07.19-01.42.25:539][826]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
+[2018.07.19-01.42.25:545][826]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
+[2018.07.19-01.42.25:549][826]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
+[2018.07.19-01.42.25:552][826]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
+[2018.07.19-01.42.25:618][826]LogModuleManager: Shutting down and abandoning module AutomationController (404)
+[2018.07.19-01.42.25:640][826]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
+[2018.07.19-01.42.25:651][826]LogModuleManager: Shutting down and abandoning module Layers (400)
+[2018.07.19-01.42.25:670][826]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
+[2018.07.19-01.42.25:670][826]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
+[2018.07.19-01.42.25:679][826]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
+[2018.07.19-01.42.25:720][826]LogModuleManager: Shutting down and abandoning module Persona (392)
+[2018.07.19-01.42.25:744][826]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
+[2018.07.19-01.42.25:744][826]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
+[2018.07.19-01.42.25:744][826]LogModuleManager: Shutting down and abandoning module Kismet (386)
+[2018.07.19-01.42.25:792][826]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
+[2018.07.19-01.42.25:793][826]LogModuleManager: Shutting down and abandoning module Toolbox (382)
+[2018.07.19-01.42.25:793][826]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
+[2018.07.19-01.42.25:801][826]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
+[2018.07.19-01.42.25:857][826]LogModuleManager: Shutting down and abandoning module OutputLog (376)
+[2018.07.19-01.42.25:865][826]LogModuleManager: Shutting down and abandoning module GammaUI (374)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module Documentation (372)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module MovieScene (368)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module PortalServices (360)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2018.07.19-01.42.25:868][826]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
+[2018.07.19-01.42.25:878][826]LogModuleManager: Shutting down and abandoning module DesktopPlatform (348)
+[2018.07.19-01.42.25:878][826]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
+[2018.07.19-01.42.26:038][826]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
+[2018.07.19-01.42.26:055][826]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (342)
+[2018.07.19-01.42.26:060][826]LogModuleManager: Shutting down and abandoning module SubstanceSource (340)
+[2018.07.19-01.42.26:072][826]LogModuleManager: Shutting down and abandoning module SubstanceEditor (338)
+[2018.07.19-01.42.26:075][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (336)
+[2018.07.19-01.42.26:075][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (334)
+[2018.07.19-01.42.26:078][826]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (332)
+[2018.07.19-01.42.26:078][826]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (330)
+[2018.07.19-01.42.26:078][826]LogModuleManager: Shutting down and abandoning module CableComponent (328)
+[2018.07.19-01.42.26:088][826]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (326)
+[2018.07.19-01.42.26:088][826]LogModuleManager: Shutting down and abandoning module AndroidPermission (324)
+[2018.07.19-01.42.26:088][826]LogModuleManager: Shutting down and abandoning module ActorSequence (320)
+[2018.07.19-01.42.26:088][826]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (318)
+[2018.07.19-01.42.26:106][826]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (316)
+[2018.07.19-01.42.26:106][826]LogModuleManager: Shutting down and abandoning module MediaCompositing (314)
+[2018.07.19-01.42.26:106][826]LogModuleManager: Shutting down and abandoning module HTML5Networking (312)
+[2018.07.19-01.42.26:106][826]LogModuleManager: Shutting down and abandoning module AlembicImporter (310)
+[2018.07.19-01.42.26:113][826]LogModuleManager: Shutting down and abandoning module AlembicLibrary (309)
+[2018.07.19-01.42.26:113][826]LogModuleManager: Shutting down and abandoning module GeometryCache (308)
+[2018.07.19-01.42.26:119][826]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (307)
+[2018.07.19-01.42.26:119][826]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (302)
+[2018.07.19-01.42.26:119][826]LogModuleManager: Shutting down and abandoning module PluginBrowser (300)
+[2018.07.19-01.42.26:129][826]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (298)
+[2018.07.19-01.42.26:150][826]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (296)
+[2018.07.19-01.42.26:150][826]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (294)
+[2018.07.19-01.42.26:150][826]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
+[2018.07.19-01.42.26:150][826]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
+[2018.07.19-01.42.26:153][826]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
+[2018.07.19-01.42.26:161][826]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
+[2018.07.19-01.42.26:170][826]LogModuleManager: Shutting down and abandoning module SourceControl (285)
+[2018.07.19-01.42.26:179][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
+[2018.07.19-01.42.26:179][826]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
+[2018.07.19-01.42.26:179][826]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
+[2018.07.19-01.42.26:179][826]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
+[2018.07.19-01.42.26:188][826]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
+[2018.07.19-01.42.26:188][826]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2018.07.19-01.42.26:196][826]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2018.07.19-01.42.26:204][826]LogModuleManager: Shutting down and abandoning module MainFrame (270)
+[2018.07.19-01.42.26:204][826]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (264)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (262)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module PhysXVehicles (260)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
+[2018.07.19-01.42.26:212][826]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
+[2018.07.19-01.42.26:217][826]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
+[2018.07.19-01.42.26:322][826]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
+[2018.07.19-01.42.26:429][826]LogModuleManager: Shutting down and abandoning module SubstanceCore (248)
+[2018.07.19-01.42.26:445][826]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (246)
+[2018.07.19-01.42.26:452][826]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (244)
+[2018.07.19-01.42.26:453][826]LogModuleManager: Shutting down and abandoning module FacialAnimation (242)
+[2018.07.19-01.42.26:453][826]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (240)
+[2018.07.19-01.42.26:462][826]LogModuleManager: Shutting down and abandoning module GraphEditor (239)
+[2018.07.19-01.42.26:462][826]LogModuleManager: Shutting down and abandoning module ContentBrowser (237)
+[2018.07.19-01.42.26:463][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
+[2018.07.19-01.42.26:463][826]LogModuleManager: Shutting down and abandoning module Paper2D (232)
+[2018.07.19-01.42.26:463][826]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (230)
+[2018.07.19-01.42.26:466][826]LogModuleManager: Shutting down and abandoning module WmfMedia (228)
+[2018.07.19-01.42.26:476][826]LogModuleManager: Shutting down and abandoning module ImgMedia (226)
+[2018.07.19-01.42.26:476][826]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2018.07.19-01.42.26:476][826]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2018.07.19-01.42.26:476][826]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2018.07.19-01.42.26:481][826]LogModuleManager: Shutting down and abandoning module MediaAssets (218)
+[2018.07.19-01.42.26:481][826]LogModuleManager: Shutting down and abandoning module Media (217)
+[2018.07.19-01.42.26:487][826]LogModuleManager: Shutting down and abandoning module Overlay (214)
+[2018.07.19-01.42.26:487][826]LogModuleManager: Shutting down and abandoning module OverlayEditor (213)
+[2018.07.19-01.42.26:487][826]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.07.19-01.42.26:507][826]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.07.19-01.42.26:515][826]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.07.19-01.42.26:515][826]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.07.19-01.42.26:534][826]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.07.19-01.42.26:537][826]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.07.19-01.42.26:542][826]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.07.19-01.42.26:542][826]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.07.19-01.42.26:553][826]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.07.19-01.42.26:571][826]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.07.19-01.42.26:607][826]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.07.19-01.42.26:607][826]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.07.19-01.42.26:629][826]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.07.19-01.42.26:629][826]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.07.19-01.42.26:632][826]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
+[2018.07.19-01.42.26:635][826]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
+[2018.07.19-01.42.26:637][826]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
+[2018.07.19-01.42.26:637][826]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
+[2018.07.19-01.42.26:640][826]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
+[2018.07.19-01.42.26:647][826]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
+[2018.07.19-01.42.26:647][826]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
+[2018.07.19-01.42.26:651][826]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
+[2018.07.19-01.42.26:651][826]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
+[2018.07.19-01.42.26:655][826]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
+[2018.07.19-01.42.26:660][826]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.07.19-01.42.26:701][826]LogDerivedDataCache: Shutdown
+[2018.07.19-01.42.26:702][826]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.07.19-01.42.26:702][826]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.07.19-01.42.26:712][826]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.07.19-01.42.26:740][826]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.07.19-01.42.26:786][826]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.07.19-01.42.26:811][826]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.07.19-01.42.26:819][826]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.07.19-01.42.26:819][826]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.07.19-01.42.26:819][826]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.07.19-01.42.26:823][826]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.07.19-01.42.26:833][826]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.07.19-01.42.26:833][826]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.07.19-01.42.26:833][826]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (95)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.07.19-01.42.26:834][826]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.19-01.42.26:835][826]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.19-01.42.26:880][826]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.19-01.42.26:916][826]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.19-01.42.26:916][826]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.19-01.42.26:924][826]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93660356-4045-C4BF-6929-5388F2F58041%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=739b29484fe40be668608b992ab0a16c%7Cfca6da8878e34404b63a1f9a2d2e697f%7C1b6bf1c7-0468-4173-b407-17b4d82cf815&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.19-01.42.26:945][826]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.19-01.42.26:957][826]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.19-01.42.26:960][826]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.19-01.42.26:960][826]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.19-01.42.26:975][826]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.19-01.42.26:985][826]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.19-01.42.26:985][826]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.19-01.42.26:985][826]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.19-01.42.26:994][826]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.19-01.42.27:003][826]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.19-01.42.27:003][826]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.19-01.42.27:025][826]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.19-01.42.27:025][826]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.19-01.42.27:025][826]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.19-01.42.27:025][826]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.19-01.42.27:034][826]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.19-01.42.27:034][826]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.19-01.42.27:043][826]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.19-01.42.27:051][826]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.19-01.42.27:064][826]LogExit: Exiting.
+[2018.07.19-01.42.27:086][826]Log file closed, 07/18/18 18:42:27
